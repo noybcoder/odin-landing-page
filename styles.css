@@ -1,16 +1,17 @@
 body {
     font-family:  Roboto, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0%;
     min-height: 100vh;
 }
 
 header {
     background-color: #1F2937;
+    padding-bottom: 75px;
 }
 
 .section {
-    margin: 0% 10%;
+    margin: 0% 15%;
 }
 
 .headline {
@@ -19,7 +20,7 @@ header {
     align-items: center;
 }
 
-.headline > h3 {
+.headline > h3, .text > h3 {
     color: #F9FAF8;
     font-size: 24px;
 }
@@ -34,26 +35,28 @@ a {
     text-decoration: none;
 }
 
-a, .overview p {
+a, .overview p, .text p {
     color: #E5E7EB;
     font-size: 18px;
 }
 
 .overview {
     display: flex;
+    align-items: center;
     gap: 24px;
+    padding-bottom: 40px;
 }
 
 .overview h2 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
-    margin-bottom: 0px;
+    margin-bottom: 0%;
 }
 
 .overview > img {
     width: auto;
-    max-height: 25rem;
+    max-height: 22rem;
     object-fit: contain;
 }
 
@@ -65,12 +68,18 @@ button {
     padding: 8px 24px;
     border: none;
     border-radius: 8px;
+    align-self: center;
 }
 
 button:hover {
     color: #3882F6;
     background-color: #F9FAF8;
     box-shadow: 0px 0px 2px 2px #F9FAF8;
+}
+
+.section.two {
+    margin-top: 3%;
+    margin-bottom: 6%;
 }
 
 .section.two > h2 {
@@ -81,7 +90,7 @@ button:hover {
 
 .section.two > h2, .icon > p {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 5%;
 }
 
 .container {
@@ -120,7 +129,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    padding: 50px 0px;
     margin: 0% 25%;
 }
 
@@ -136,4 +145,31 @@ button:hover {
     color: #1F2937;
     font-size: 22px;
     font-weight: 900;
+}
+
+.section.four{
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section.four > button {
+    border: 2px solid #F9FAF8;
+}
+
+.text > h3 {
+    margin-bottom: -15px;
+}
+
+footer {
+    padding: 20px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
 }
