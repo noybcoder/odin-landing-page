@@ -108,6 +108,42 @@ button:hover {
     flex-wrap: wrap;
 }
 
+.icon:hover img {
+    opacity: 0.3;
+}
+
+.icon:hover .guess {
+    opacity: 1;
+}
+
+.guess {
+    opacity: 0;
+    position: absolute;
+    transform: translate(35%, 275%);
+    -ms-transform: translate(35%, 275%);
+}
+
+img[src$="Tik Tok.jpg"] + .guess {
+    transform: translate(85%, 300%);
+    -ms-transform: translate(85%, 300%);
+}
+
+img[src$="Twitter.jpg"] + .guess {
+    transform: translate(600%, 300%);
+    -ms-transform: translate(600%, 300%);
+}
+
+img[src$="YouTube.jpg"] + .guess {
+    transform: translate(50%, 300%);
+    -ms-transform: translate(50%, 300%);
+}
+
+.answer {
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .icon > img {
     width: 150px;
     height: 150px;
