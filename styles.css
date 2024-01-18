@@ -124,18 +124,18 @@ button:hover {
 }
 
 img[src$="Tik Tok.jpg"] + .guess {
-    transform: translate(85%, 300%);
-    -ms-transform: translate(85%, 300%);
+    transform: translate(85%, 275%);
+    -ms-transform: translate(85%, 275%);
 }
 
 img[src$="Twitter.jpg"] + .guess {
-    transform: translate(600%, 300%);
-    -ms-transform: translate(600%, 300%);
+    transform: translate(600%, 275%);
+    -ms-transform: translate(600%, 275%);
 }
 
 img[src$="YouTube.jpg"] + .guess {
-    transform: translate(50%, 300%);
-    -ms-transform: translate(50%, 300%);
+    transform: translate(50%, 275%);
+    -ms-transform: translate(50%, 275%);
 }
 
 .answer {
